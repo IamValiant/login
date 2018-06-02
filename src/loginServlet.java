@@ -24,7 +24,6 @@ public class loginServlet extends HttpServlet {
 
         DBConn dbConn = new DBConn();
         String sql = "SELECT COUNT(1) FROM user WHERE username = ? AND password = ?";
-        //后续把两个字段改为从输入端读取到的字段
         int count = dbConn.query(sql,new String[]{username,password});
         System.out.println(count);
         if(count == 0){
