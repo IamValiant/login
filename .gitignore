@@ -1,0 +1,28 @@
+# general
+*~
+*.log
+*.gz
+tmp
+dump
+.DS_Store
+.history
+dump.rdb
+bestsign-sdk-logs
+MIYOU_LOG_DIR_IS_UNDEFINED
+
+# Intellij
+**/.idea/
+*.iml
+
+# Eclipse
+.settings
+.cache-main
+.cache-tests
+.cache
+.project
+.classpath
+.scala_dependencies
+bin
+output
+
+
