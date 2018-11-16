@@ -30,6 +30,6 @@ hotspot.log
 .classpath
 .scala_dependencies
 bin
-output
+out
 
 
