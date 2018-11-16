@@ -17,7 +17,7 @@ public class DBConn {
     //打开连接
     public Connection getConn() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(JDBC_DRIVER);
             System.out.println("Connecting to database...");
             conn = DriverManager.getConnection(DB_URL, USER, PASSWORD);
         } catch (ClassNotFoundException e) {
