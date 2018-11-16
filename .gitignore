@@ -6,6 +6,7 @@ tmp
 dump
 .DS_Store
 .history
+.xml
 dump.rdb
 bestsign-sdk-logs
 MIYOU_LOG_DIR_IS_UNDEFINED
