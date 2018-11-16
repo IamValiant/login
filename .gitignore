@@ -1,18 +1,24 @@
-# general
-*~
-*.log
-*.gz
-tmp
-dump
+/target
+/out
+/classes
+/checkouts
+/.lein-*
+/.env
+*.iml
+.idea
 .DS_Store
-.history
-.xml
-dump.rdb
-bestsign-sdk-logs
-MIYOU_LOG_DIR_IS_UNDEFINED
+*/target
+.svn
+.project
+.settings
+.classpath
+logs
+/log
+/tmp
+hotspot.log
 
 # Intellij
-**/.idea/
+*/.idea/
 *.iml
 
 # Eclipse
